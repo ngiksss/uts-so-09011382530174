@@ -7,6 +7,14 @@
 * **NIM:** 09011382530174
 * **Kelas:** [Kelas Anda]
 
+```text
+uts-so-09011382530174/
+├── script/
+│   ├── alias.sh
+│   ├── backup.sh
+│   └── backup_loop.sh
+├── README.md
+└── nim.txt
 ---
 
 ## 2. Deskripsi Script
@@ -69,3 +77,5 @@ Setelah kembali ke terminal utama, ketik rangkaian perintah Git berikut secara b
 git add README.md
 git commit -m "Melengkapi README.md sesuai modul UTS Sistem Operasi"
 git push origin main
+
+

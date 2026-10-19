@@ -78,4 +78,23 @@ git add README.md
 git commit -m "Melengkapi README.md sesuai modul UTS Sistem Operasi"
 git push origin main
 
+## 7. Penjelasan Skrip
+Repositori ini terdiri dari beberapa komponen utama di dalam folder script/:
+
+backup.sh
+
+Fungsi: Melakukan kompresi dan pencadangan (backup) direktori tertentu ke dalam format arsip tarball (.tar.gz).
+
+Fitur: Dilengkapi dengan penanda waktu (timestamp) otomatis pada nama file arsip agar hasil backup tidak saling menimpa (overwrite).
+
+backup_loop.sh
+
+Fungsi: Menjalankan proses backup secara berulang-ulang (looping) secara otomatis dalam selang waktu (interval) tertentu.
+
+Fitur: Cocok digunakan untuk memantau automasi latar belakang di sistem operasi Linux/Ubuntu.
+
+alias.sh
+
+Fungsi: Menyediakan kumpulan pintasan perintah (alias) terminal yang sering digunakan untuk mempercepat navigasi direktori maupun eksekusi skrip tugas.
+
 

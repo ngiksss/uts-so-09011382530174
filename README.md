@@ -10,12 +10,12 @@
 ```text
 uts-so-09011382530174/
 ├── script/
-│   ├── alias.sh
-│   ├── backup.sh
-│   └── backup_loop.sh
-├── README.md
-└── nim.txt
----
+│   ├── alias.sh          # Kumpulan alias perintah terminal
+│   ├── backup.sh         # Skrip utama pencadangan data (tar.gz + timestamp)
+│   └── backup_loop.sh    # Skrip automasi backup berulang di background
+├── README.md             # Dokumentasi lengkap proyek UTS
+└── nim.txt               # Berkas verifikasi identitas NIM mahasiswa
+
 
 ## 2. Deskripsi Script
 Repositori ini berisi beberapa skrip automasi sistem operasi berbasis Bash:
@@ -96,5 +96,7 @@ Fitur: Cocok digunakan untuk memantau automasi latar belakang di sistem operasi 
 alias.sh
 
 Fungsi: Menyediakan kumpulan pintasan perintah (alias) terminal yang sering digunakan untuk mempercepat navigasi direktori maupun eksekusi skrip tugas.
+
+
 
 
